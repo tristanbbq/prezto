@@ -60,3 +60,15 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # NVM
 export NVM_DIR="/Users/tristan/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# imobiledevice-macosx
+export DYLD_LIBRARY_PATH=/Users/tristan/dev/libimobiledevice-macosx/:$DYLD_LIBRARY_PATH
+PATH=${PATH}:/Users/tristan/dev/libimobiledevice-macosx/
+
+# virtualenvwrapper
+export WORKON_HOME=$HOME/dev/Envs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
+
+# Android
+export ANDROID_HOME=/Users/tristan/Library/Android/sdk
